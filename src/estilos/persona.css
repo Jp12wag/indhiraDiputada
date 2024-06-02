@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+
+.contenedor-info {
+    margin-top: -10%;
+    background-color: #5898e8;
+    height: 500px;
+}
+.contenedor-info h2 {
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
+}
+.contenedor-info h3 {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
+}
+
+.formulario-registro-persona {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+}
+
+.formulario-registro-persona input {
+    margin-bottom: 5px;
+    margin-left: 20px;
+    width: 95%;
+    font-size: 20px;
+    border-radius: 4px;
+    border: 1px solid white;
+    background-color: #031d3e;
+    color: white;
+}
+
+.formulario-registro-persona button {
+    margin-bottom: 16px;
+    margin-left: 20px;
+    width: 95%;
+    font-size: 30px;
+    border-radius: 4px;
+    border: 1px solid white;
+    background-color: #031d3e;
+    color:white;
+}
+
+.tamano button{
+font-size: 30px;
+margin: 2px;
+color: #031d3e;
+border: 1px solid white;
+background-color: white;
+
+}
+
+.contenedor-tabla{
+   
+    /* Ajusta este valor según sea necesario */
+    overflow-y: auto;
+    height: 60%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
